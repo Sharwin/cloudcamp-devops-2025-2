@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "bucket-devops-2025-123-456"
+  bucket = "bucket-devops-2025-123-789"
 
   tags = {
     Name        = "cloudcamp-terraform"
